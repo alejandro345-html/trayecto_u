@@ -4,36 +4,48 @@ body {
     font-family: Arial, sans-serif;
     margin: 0px;
     padding: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .portada{
-
-    width: 100%;
-    height: 700px;
+    background-color: #47f9ff50;
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.op{
+.menu{
+    position: relative;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    justify-content: end;
     padding: 10px;
     background-color: #81d4fa;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.op img{
-    margin-right: 0px;
-    width: 80px;
-    height: 60px;
-    margin-top: 15px;
+#logo{
+    position:absolute;
+    text-align: center;
+    top: 130px;
+    right: 70%;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
 
 }
 
 
 
 .btn {
-    
     text-decoration: none;
     margin-right: 200px;
     width: 170px;
@@ -78,13 +90,18 @@ button:hover:after {
 
 
 .container{
-    position: absolute;
-    bottom: 400px;
-    text-align:left;
+    position: relative;
+    bottom: 120px;
+    text-align:center;
     color: rgb(148, 110, 110);
     padding: 50px;
-    margin-top: 100px;
-    margin-bottom: 10px;
+    margin-top: 500px;
+    margin-bottom: 0%; 
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px) opacity(1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.678);
+    border-radius: 8px;
+    padding: 40px 20px;
 }
 
 .container h1{
@@ -101,27 +118,11 @@ h1, h2 {
     
 }
 
-.texto{
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(3px) opacity(1);
-    position: absolute;
-    bottom: 100px;
-    padding: 40px 20px;
-    margin: 10px;
-    max-width: 600px;
-    border-radius: 8px;
-    align-items: center;
-    justify-content: space-around;
-    padding: 50px;
-    
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.678);
-}
-
-.texto h2{
+.container h2{
     font-size: 30px;
 }
 
-.texto p{
+.container p{
     font-size: medium;
     margin-top: 10px;
     color: rgb(0, 0, 0);
@@ -130,9 +131,8 @@ h1, h2 {
 }
 
 .foto{
-    position: absolute;
-    bottom: 250px;
-    left: 800px;
+    position: relative;
+    top: 200px;
     width: 300px;
     height: 300px;
     background-color: #81d4fa;
@@ -143,11 +143,13 @@ h1, h2 {
 
 
 .city-section {
+    position:relative;
     text-align: center;
     padding: 2rem;
 }
 
 .city-section h2 {
+    position: relative;
     font-size: 1.8rem;
     color: #333;
     margin-bottom: 1rem;
@@ -164,8 +166,9 @@ h1, h2 {
 
 
 .city-card {
+    position: relative;
     background-color: #e3f2fd;
-    padding: 1.5rem;
+    padding: 13px;
     border-radius: 8px;
     width: 300px;
     text-align: center;
@@ -215,16 +218,17 @@ h1, h2 {
 }   
 
 .tabla{
-    right: 300px;
+    text-align: center;
+    padding: 2px;
 }
 .ranking-section {
+    text-align: center;
     margin: 20px;
-    margin-left: 260px;
-    max-width: 800px;
-    width: 90%;
+    max-width:100%;
+    width: auto;
     background-color: #8abdffa6;
     border-radius: 8px;
-    padding: 20px;
+    padding: 2px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -239,7 +243,7 @@ h1, h2 {
     font-size: 16px;
     color: #555;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .ranking-table {
@@ -255,7 +259,7 @@ h1, h2 {
 
 .ranking-table th,
 .ranking-table td {
-    padding: 12px 15px;
+    padding: 12px 5px;
     text-align: left;
     border-bottom: 1px solid #66666670;
 }
