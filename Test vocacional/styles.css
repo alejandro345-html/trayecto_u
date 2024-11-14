@@ -1,0 +1,121 @@
+body {
+    background: url(../imagenes/Vino\ en\ Tarija.jpg6);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #bbe7fc;
+}
+
+a img{
+    top: 5px;
+    position: relative;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.container {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    background-color: #12a6e5 #0585c4;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+    animation: slideIn 0.5s ease;
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.question:hover {
+    box-shadow: 0 4px 20px rgba(0, 123, 255, 0.5);
+}
+
+.options {
+    padding-left: 25px;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.options:hover {
+    color: white;
+}
+
+.options:hover {
+    fill: white;
+    transform: scale(1.2);
+} 
+
+label {
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

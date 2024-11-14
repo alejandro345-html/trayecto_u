@@ -1,0 +1,174 @@
+/* Estilos generales */
+body {
+    min-height: 100vh;
+    background: 
+    url(../../imagenes/pexels-jan-van-der-wolf-11680885-25188371.jpg) no-repeat, center center, fixed;
+    background-size: cover;
+    background-position: center;
+    
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a img{
+    top: 5px;
+    position: absolute;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+    border-radius: 30px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px) opacity(1);
+    width: 1200px;
+    left: 50px;
+    text-align: center;
+    padding: 20px;
+
+    
+
+}
+
+.container h1{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    color: #3a57fa;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 50px;
+}
+#universidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+
+    padding: 20px 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px) opacity(1);
+
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+
+}
+.usfx{
+    background-color: rgba(48, 155, 242, 0.5);
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 15px;
+    width:250px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.usfx:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgba(48, 155, 242, 0.955);
+
+}
+
+.upds{
+    background-color: rgba(48, 155, 242, 0.5);
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 15px;
+    width:250px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.upds:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgba(48, 155, 242, 0.955);
+}
+
+.uasb{
+    background-color: rgba(48, 155, 242, 0.5);
+    margin-left: 20px;
+    margin-right: 15px;
+    padding: 15px;
+    width:250px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.uasb:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgba(48, 155, 242, 0.955);
+}
+
+.usfa{
+    background-color: rgba(48, 155, 242, 0.5);
+    margin-right: 15px;
+    margin-left: 20px;
+    padding: 15px;
+    width:250px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.usfa:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgba(48, 155, 242, 0.955);
+}
+
+#institutos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
+    padding: 20px 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px) opacity(1);
+
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.instituto{
+    background-color: rgba(48, 155, 242, 0.5);
+    margin-left: 20px;
+    margin-right: 15px;
+    padding: 15px;
+    width:250px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.instituto:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgba(48, 155, 242, 0.955);
+}
+
+
+

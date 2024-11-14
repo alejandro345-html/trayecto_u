@@ -1,0 +1,271 @@
+
+body {
+    background: linear-gradient(to bottom, #b3e5fc, #e1f5fe);
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+    
+}
+
+.portada{
+
+    width: 100%;
+    height: 700px;
+}
+
+.op{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #81d4fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.op img{
+    margin-right: 0px;
+    width: 80px;
+    height: 60px;
+    margin-top: 15px;
+
+}
+
+
+
+.btn {
+    
+    text-decoration: none;
+    margin-right: 200px;
+    width: 170px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 25px;
+    background: #ffffff;
+    color: rgb(12, 124, 216);
+    border: none;
+    border-radius: 0.625em;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+button:hover {
+    color: black;
+}
+
+button:after {
+    content: "";
+    background: rgb(20, 154, 243);
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+
+.container{
+    position: absolute;
+    bottom: 400px;
+    text-align:left;
+    color: rgb(148, 110, 110);
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.container h1{
+    color: rgb(77, 94, 250);
+    font-size: 50px;
+}
+
+
+
+
+h1, h2 {
+    margin: 0;
+    color: #344ee4;
+    
+}
+
+.texto{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px) opacity(1);
+    position: absolute;
+    bottom: 100px;
+    padding: 40px 20px;
+    margin: 10px;
+    max-width: 600px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.678);
+}
+
+.texto h2{
+    font-size: 30px;
+}
+
+.texto p{
+    font-size: medium;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+
+}
+
+.foto{
+    position: absolute;
+    bottom: 250px;
+    left: 800px;
+    width: 300px;
+    height: 300px;
+    background-color: #81d4fa;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.city-section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.city-section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.city-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+
+}
+
+
+
+.city-card {
+    background-color: #e3f2fd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.city-card:hover{
+    transform: scale(1.1);
+}
+
+.city-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.city-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #333;
+}
+
+
+.best-universities {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.best-universities h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.best-universities p {
+    font-size: 1rem;
+    color: #555;
+
+}   
+
+.tabla{
+    right: 300px;
+}
+.ranking-section {
+    margin: 20px;
+    margin-left: 260px;
+    max-width: 800px;
+    width: 90%;
+    background-color: #8abdffa6;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ranking-section h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ranking-section p {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ranking-table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ranking-table thead {
+    background-color: #689bdf;
+    color: #fff;
+}
+
+.ranking-table th,
+.ranking-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #66666670;
+}
+
+.ranking-table th {
+    font-weight: bold;
+}
+
+.ranking-table tbody tr:hover {
+    background-color: #7d93f5;
+}
+
+

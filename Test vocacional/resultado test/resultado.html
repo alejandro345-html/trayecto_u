@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado del Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resultado de tu Test</h1>
+    <script>
+        // Recupera el resultado del localStorage
+        const resultado = localStorage.getItem('resultadoTest');
+        
+        // Muestra el resultado en la página
+        document.getElementById('resultado').textContent = resultado ? `Tu resultado es: ${resultado}` : 'No hay resultados disponibles.';
+    </script>
+    </div>
+</body>
+</html>
