@@ -1,13 +1,12 @@
 body {
-    background: url(../imagenes/Vino\ en\ Tarija.jpg6);
-    background-repeat: no-repeat;
-    background-position: center;
     font-family: 'Arial', sans-serif;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
     background-color: #bbe7fc;
+    position: absolute;
 }
 
 a img{
@@ -19,8 +18,12 @@ a img{
 }
 
 .container {
-    margin-left: 300px;
-    margin-right: 300px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: auto;
+
+    margin: 30px;
     margin-bottom: 100px;
     background-color: #12a6e5 #0585c4;
     padding: 20px;
